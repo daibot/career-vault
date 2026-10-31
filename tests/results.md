@@ -1,6 +1,6 @@
 # Validation evidence — 2026-10-29
 
-All examples and test career facts are synthetic. No real career record or source-thread personal details are included. This release remains a private pilot pending live user testing and owner approval for public release.
+All examples and test career facts are synthetic. No real career record or source-thread personal details are included. This report records the original private-pilot evaluation. The creator subsequently approved a public beta; no additional live-host results are implied. See the [public release review](../docs/public-release-review.md).
 
 ## Baseline before writing the skill
 
@@ -28,8 +28,8 @@ Independent review found no high/medium issue. Its low-severity template wording
 
 Run `python3 scripts/release.py` from the repository root. The release script validates allowlisted file existence, internal Markdown file links, the minimal skill header and nonempty body, archive manifests/CRC and artifact checksums. It includes no network operations and packages only named reusable files, not arbitrary working-tree content. These checks prove packaging integrity, not interview quality or absence of every possible sensitive fact. Source content was also manually reviewed for synthetic-only examples.
 
-The upstream skill-creator `quick_validate.py` was attempted with system and bundled Python. Both stopped because the optional PyYAML dependency is absent (`ModuleNotFoundError: No module named 'yaml'`). No package was installed into personal settings. The release script's simpler checks passed when run; they do not replace the full upstream validator. Rerun that validator in an environment with PyYAML before a broader release.
+The upstream skill-creator `quick_validate.py` was attempted with system and bundled Python. Both stopped because the optional PyYAML dependency is absent (`ModuleNotFoundError: No module named 'yaml'`). No package was installed into personal settings. The release script's simpler checks passed when run; they do not replace the full upstream validator. On October 31, 2026, a follow-up run used PyYAML 6.0.3 in an isolated temporary environment and the upstream validator reported “Skill is valid!” for the public-beta skill. The original dependency failure remains part of the historical record.
 
 ## Remaining gates
 
-Live friend testing on Claude and ChatGPT, actual checkpoint migration, voice/file availability and full upstream validator remain to be verified. Follow the [private pilot guide](../docs/pilot.md). Publishing requires authenticated GitHub access and the user's configured commit identity; only private repository publication is authorized.
+Live testing on Claude and ChatGPT, actual checkpoint migration and voice/file availability remain to be verified. The upstream structural validator passed on October 31; it does not establish those behavioral results. Follow the [beta testing guide](../docs/pilot.md). Historical publication restrictions were superseded by the creator's later public-beta approval; current distribution details are in the [release guide](../docs/release.md).

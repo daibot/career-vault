@@ -1,5 +1,6 @@
 # Career Vault Implementation Plan
 
+Historical record: private-pilot visibility references below describe the original build. The later public-beta approval and current status are recorded in docs/release.md.
 > **For agentic workers:** Use superpowers:executing-plans to implement this plan task by task. Native execution is authorized; independent skill evaluation uses the writing-skills testing method.
 
 **Goal:** Deliver a reviewable, publishable Career Vault first version.

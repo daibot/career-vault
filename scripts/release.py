@@ -6,7 +6,7 @@ import re
 import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
-VERSION = '0.1.0'
+VERSION = '0.1.1-beta.1'
 SKILL_FILES = [
     'SKILL.md', 'references/interview.md', 'references/outputs.md',
     'assets/career-record.md', 'assets/output-templates.md',
@@ -14,7 +14,9 @@ SKILL_FILES = [
 SOURCE_FILES = [
     'README.md', 'LICENSE', 'CONTRIBUTING.md', '.gitignore',
     'docs/design.md', 'docs/chatgpt.md', 'docs/claude.md', 'docs/privacy.md',
-    'docs/pilot.md', 'docs/release.md',
+    'docs/pilot.md', 'docs/release.md', 'docs/demo.md', 'docs/build.md',
+    'docs/public-release-review.md', 'docs/announcement.md',
+    '.github/ISSUE_TEMPLATE/feedback.md', '.github/ISSUE_TEMPLATE/config.yml',
     'docs/superpowers/plans/2026-10-29-career-vault.md',
     'examples/synthetic-journey.md', 'tests/scenarios.md', 'tests/results.md',
     'tests/behavior-transcripts.md', 'tests/review.md', 'scripts/release.py',
@@ -60,14 +62,14 @@ def main():
     write_zip(skill_zip, pairs)
     bundle = dist/'career-vault-playbook.txt'
     sections = [
-        f'Career Vault {VERSION} — complete portable playbook\nPrivate pilot. No personal career data is included.\n',
+        f'Career Vault {VERSION} — complete AI skill instructions\nPublic beta. No personal career data is included.\n',
         'For the assistant: Follow the core instructions below. Referenced files are included as named sections in this text. Templates are structures, not user facts. For the user: send the README starter message after providing this file.\n',
     ]
     for name in SKILL_FILES:
         sections.extend([f'\n===== {name} =====\n', (ROOT/'skill/career-vault'/name).read_text()])
     sections.extend(['\n===== LICENSE =====\n', (ROOT/'LICENSE').read_text()])
     bundle.write_text('\n'.join(sections))
-    pilot_zip = dist/f'career-vault-pilot-{VERSION}.zip'
+    pilot_zip = dist/f'career-vault-beta-{VERSION}.zip'
     source_pairs = [('career-vault/'+p, (ROOT/p).read_bytes()) for p in SOURCE_FILES]
     source_pairs.extend([
         ('career-vault/dist/'+skill_zip.name, skill_zip.read_bytes()),

@@ -1,46 +1,50 @@
-# Release 0.1.0 — private pilot
+# Career Vault 0.1.1-beta.1 — public beta
 
-## Publication status
+## Distribution
 
-Repository: [daibot/career-vault](https://github.com/daibot/career-vault), **private**, with source on `main`. GitHub account authorization and private visibility were verified on October 31, 2026. Git authentication is configured; this project's author uses the account's GitHub noreply address.
+[Repository](https://github.com/daibot/career-vault) · [Beta downloads](https://github.com/daibot/career-vault/releases/tag/v0.1.1-beta.1)
 
-The [v0.1.0 private pilot release](https://github.com/daibot/career-vault/releases/tag/v0.1.0) is the download entry point. Invited testers must sign into GitHub with an account granted access. No collaborators have been invited automatically. Keep personal career records outside this repository. No personal skill installation is required.
+The creator approved public beta publication after the original private pilot was packaged. The skill, templates and synthetic examples are reusable under the MIT license. No real career records are part of the distribution. Live-user validation is still pending; this is an early beta.
 
-Do not make this repository public. The user superseded earlier public-release authorization with **private publication only** while friends test. Public launch, outreach and portfolio changes await a later instruction.
+Version 0.1.0 is the historical private-pilot snapshot. Its wording describes the status at that time. Version 0.1.1-beta.1 provides the current public-beta setup, walkthrough and feedback guidance. The repository's full history and any published historical downloads are visible once it is public.
 
-Suggested repository description:
+## Choose a download
 
-> An AI interview playbook for creatives to discover their career value, preserve a portable record, and tailor resumes and stories. No collection by Career Vault; AI provider settings still apply.
+- `career-vault-playbook.txt`: complete skill instructions, supporting guides and templates for upload/paste. No installation required.
+- `career-vault-skill-0.1.1-beta.1.zip`: installable skill folder for compatible hosts; see the Claude guide for its optional ZIP path.
+- `career-vault-beta-0.1.1-beta.1.zip`: complete reusable source, onboarding, walkthrough, templates and validation evidence, plus the two files above.
+- `SHA256SUMS`: checksums for the three downloads.
 
-MIT is the proposed license default, recorded in `LICENSE`. This is a documentation-first pilot, not a verified employment outcome product.
+The package does not activate voice, install itself by opening a GitHub URL or provide encryption/backups. Keep personal records outside the repository and public feedback. AI-provider privacy settings still apply.
 
-## Build and check
+## What changed from the pilot
 
-Run from the repository root:
+- Clear AI-skill positioning and separate installation/copy-upload paths.
+- Synthetic walkthrough and optional recording outline.
+- Design/build notes with AI assistance disclosed.
+- Public feedback template, contribution guidance and draft launch copy.
+- Public-release history/download review and updated packaging metadata.
+
+The interview and evidence rules retain the same core workflow. These documentation/packaging changes are not additional evidence of live host reliability.
+
+## Build and verify
+
+From the repository root:
 
 ```sh
 python3 scripts/release.py
 ```
 
-This uses only the Python standard library. It checks relative Markdown file links, validates the skill header, builds an allowlisted skill ZIP, checks its exact contents, and creates a single complete text playbook with references inline. It does not use the network. Output is in ignored `dist/`:
+The standard-library tool checks allowlisted file existence, internal Markdown file links, a minimal skill header, archive manifests/CRC and SHA-256 checksums. It builds only named reusable files; `.git`, local configuration, arbitrary working-tree contents and personal record directories are excluded. Output is in ignored `dist/`.
 
-- `career-vault-skill-0.1.0.zip`: skill folder and four supporting files, plus license.
-- `career-vault-playbook.txt`: complete core and reference/template content for upload or paste.
-- `career-vault-pilot-0.1.0.zip`: explicitly listed public-safe source, guides, templates and validation evidence. No personal records, `.git`, caches or local configuration.
-- `SHA256SUMS`: artifact checksums.
+Identical inputs produce identical artifacts. Packaging integrity does not prove that an AI follows the instructions or that every possible sensitive fact has been detected. Read the [validation report](../tests/results.md) and [public release review](public-release-review.md).
 
-The repository is the reviewable source; generated artifacts should be attached only to a private release during the pilot. Run the bundled skill validator too if available in your development environment; it is not required by users.
+## For maintainers
 
-## Manual release checklist
+Review the whole staged diff, full history when making visibility changes, release downloads and public feedback for unintended private content. Test behavior changes with realistic synthetic scenarios. Keep actual live-host results distinct from simulations. Build and inspect artifacts before upload, then compare uploaded digests and the remote commit with the reviewed local results.
 
-- Review `git status` and every staged file; no personal data or secrets.
-- Run packaging checks and read `tests/results.md` for behavioral evidence and limits.
-- Confirm friend-pilot setup, privacy copy and platform citations remain current.
-- Configure a real Git identity; commit reviewed source. Keep `dist/` ignored unless deliberately attaching checked release artifacts.
-- Create/push to a private repository and verify actual visibility and owner.
-- Record private repository/release URL and real live-test results when available.
-- Public visibility, outreach and portfolio links await a later explicit owner decision.
+Do not upload user career records. No external announcement, direct outreach, collaborator invitation or portfolio edit is authorized simply by publishing a release.
 
 ## Known limits
 
-Instructions cannot guarantee a model follows them. Large records may exceed context limits; use full checkpoints and load relevant sections while preserving the complete record outside chat. Host file, browsing, OCR, voice and export capabilities vary. No encryption, automated backups, telemetry, external submission, resume scoring or hiring guarantees are provided. The first release includes simulated tests, not live Claude/ChatGPT tests.
+Host/model compliance, live onboarding on Claude/ChatGPT, actual exports, OCR/browsing, voice/file access and long-session/cross-host migration remain to be established by beta users. Context limits may require loading relevant record sections while preserving the full record separately. No hiring outcomes, automated career-data collection or provider-level privacy guarantee are claimed.

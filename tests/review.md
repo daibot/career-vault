@@ -1,5 +1,6 @@
 # Independent pre-release review and G/H/I simulation
 
+Historical record: private-pilot visibility references below describe the original build. The later public-beta approval and current status are recorded in docs/release.md.
 Date: 2026-10-29. Reviewer: independent AI-agent reviewer. All people, employers, paths and career facts in the scenarios below are synthetic. Read the README, contributing guidance, design, privacy, pilot, release and host guides, implementation plan, canonical skill, both references, both templates, synthetic journey, behavioral transcripts and scenario definitions. No external actions or live host access were performed.
 
 ## Findings

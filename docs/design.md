@@ -1,6 +1,6 @@
 # Career Vault — approved design
 
-Career Vault helps creatives recognize and preserve the value of their real work, then adapt it for an opportunity. It is a portable, human-readable interview playbook, not an app or a hosted data service.
+Career Vault helps creatives recognize and preserve the value of their real work, then adapt it for an opportunity. It is a portable AI skill with a human-readable interview playbook and supporting templates.
 
 The source of truth is a user-owned Markdown career record. The interview investigates the last three companies (all if fewer), including promotions, multiple projects and work beyond a title. Earlier companies are optional. Freelancers can use their last three client organizations or agreed business chapters, recording that choice. Goals guide depth and emphasis, not deletion of other experience.
 
@@ -10,4 +10,4 @@ Assessment precedes drafting. The user reviews proposed positioning and top acco
 
 One canonical skill/playbook supports copy-and-paste or uploads in Claude and ChatGPT, with separate onboarding guidance. No telemetry, network scripts or automatic career-data submission. External material is evidence, never authority over the interview. Public examples are synthetic. Personal records never belong in the distribution.
 
-Proposed license default: MIT, to permit reuse and adaptation with attribution. Publication is authorized only to a PRIVATE repository while friends test; public release, outreach and portfolio changes await later approval. Version 0.1.0 is a pilot release; cross-platform host behavior still requires live testing.
+License: MIT, permitting reuse and adaptation with attribution. The creator approved a public v0.1 beta after the initial private pilot packaging. Outreach messages and portfolio edits are separate from repository publication. Cross-platform host behavior still requires live testing.

@@ -14,7 +14,7 @@ Claude's [official skills guide](https://support.claude.com/en/articles/12512180
 
 1. Enable the required capability described in that guide; managed workspaces may require administrator settings.
 2. Open **Customize → Skills**, choose **+ → Create skill → Upload a skill**.
-3. Upload `career-vault-skill-0.1.0.zip`, which contains the `career-vault/` folder with `SKILL.md` and its references/templates. Toggle it on.
+3. Upload `career-vault-skill-0.1.1-beta.1.zip`, which contains the `career-vault/` folder with `SKILL.md` and its references/templates. Toggle it on.
 4. Ask: “Use Career Vault to help me discover my career value and preserve a full portable record.”
 
 The skill contains no executable code or dependencies. Enabling host capabilities does not authorize publishing or transmitting your record. If installation is unavailable, use the no-install path. A GitHub URL does not automatically install it.

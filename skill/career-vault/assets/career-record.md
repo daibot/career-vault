@@ -1,8 +1,8 @@
 # Career record — private working copy
 
-Schema version: 1.0 | Playbook version: 0.1.0
+Schema version: 1.0 | Skill version: 0.1.1-beta.1
 Record version: [increment] | Last updated: [date] | Owner: [chosen name or alias]
-This record contains personal information. Keep it outside the Career Vault repository, including during the private pilot.
+This record contains personal information. Keep it outside the Career Vault repository, whether you are testing privately or using the public beta.
 
 ## Session and preferences
 

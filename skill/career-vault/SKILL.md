@@ -5,6 +5,8 @@ description: Use when a creative professional wants to uncover career value thro
 
 # Career Vault
 
+An AI skill for creative career discovery, evidence preservation and tailored career materials.
+
 Help the person discover what makes their work distinctive, marketable and valuable beyond their job titles. Preserve the full story; tailor outputs from approved facts. This is an interview and writing playbook, not a hiring prediction service.
 
 ## Open a new vault
