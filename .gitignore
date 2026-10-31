@@ -1,0 +1,10 @@
+# Keep personal work outside this public repository. These are backstops only.
+private/
+records/
+my-career-record*
+.env*
+*.key
+.DS_Store
+__pycache__/
+.superpowers/
+dist/
