@@ -33,3 +33,7 @@ The upstream skill-creator `quick_validate.py` was attempted with system and bun
 ## Remaining gates
 
 Live testing on Claude and ChatGPT, actual checkpoint migration and voice/file availability remain to be verified. The upstream structural validator passed on October 31; it does not establish those behavioral results. Follow the [beta testing guide](../docs/pilot.md). Historical publication restrictions were superseded by the creator's later public-beta approval; current distribution details are in the [release guide](../docs/release.md).
+
+## LinkedIn onboarding follow-up
+
+Beta.2 explicitly offers a LinkedIn profile URL among optional starting sources, with authorized-browser access or a pasted/exported fallback. The [synthetic evaluation](linkedin-onboarding.md) records the before/after invitation and inaccessible-profile behavior. This evaluates response wording in an agent simulation; it does not establish live LinkedIn access, scraping coverage, account control or cross-host performance. No personal career information is used in the public test.

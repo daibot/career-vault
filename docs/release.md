@@ -1,21 +1,28 @@
-# Career Vault 0.1.1-beta.1 — public beta
+# Career Vault 0.1.1-beta.2 — public beta
 
 ## Distribution
 
-[Repository](https://github.com/daibot/career-vault) · [Beta downloads](https://github.com/daibot/career-vault/releases/tag/v0.1.1-beta.1)
+[Repository](https://github.com/daibot/career-vault) · [Beta downloads](https://github.com/daibot/career-vault/releases/tag/v0.1.1-beta.2)
 
 The creator approved public beta publication after the original private pilot was packaged. The skill, templates and synthetic examples are reusable under the MIT license. No real career records are part of the distribution. Live-user validation is still pending; this is an early beta.
 
-Version 0.1.0 is the historical private-pilot snapshot. Its wording describes the status at that time. Version 0.1.1-beta.1 provides the current public-beta setup, walkthrough and feedback guidance. The repository's full history and any published historical downloads are visible once it is public.
+Version 0.1.0 is the historical private-pilot snapshot. Its wording describes the status at that time. Version 0.1.1-beta.2 provides the current public-beta setup, walkthrough and feedback guidance. The repository's full history and any published historical downloads are visible once it is public.
 
 ## Choose a download
 
 - `career-vault-playbook.txt`: complete skill instructions, supporting guides and templates for upload/paste. No installation required.
-- `career-vault-skill-0.1.1-beta.1.zip`: installable skill folder for compatible hosts; see the Claude guide for its optional ZIP path.
-- `career-vault-beta-0.1.1-beta.1.zip`: complete reusable source, onboarding, walkthrough, templates and validation evidence, plus the two files above.
+- `career-vault-skill-0.1.1-beta.2.zip`: installable skill folder for compatible hosts; see the Claude guide for its optional ZIP path.
+- `career-vault-beta-0.1.1-beta.2.zip`: complete reusable source, onboarding, walkthrough, templates and validation evidence, plus the two files above.
 - `SHA256SUMS`: checksums for the three downloads.
 
 The package does not activate voice, install itself by opening a GitHub URL or provide encryption/backups. Keep personal records outside the repository and public feedback. AI-provider privacy settings still apply.
+
+## What changed in beta.2
+
+- Initial source onboarding explicitly offers a LinkedIn profile URL.
+- Access guidance covers authorized browsers, pasted text and user-supplied exports without requesting credentials.
+- Profile claims remain unverified source material; access limits and correction are explicit. Supplying a URL does not authorize edits.
+- A synthetic onboarding evaluation is recorded in tests/linkedin-onboarding.md.
 
 ## What changed from the pilot
 

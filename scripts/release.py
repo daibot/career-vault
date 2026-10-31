@@ -6,7 +6,7 @@ import re
 import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
-VERSION = '0.1.1-beta.1'
+VERSION = '0.1.1-beta.2'
 SKILL_FILES = [
     'SKILL.md', 'references/interview.md', 'references/outputs.md',
     'assets/career-record.md', 'assets/output-templates.md',
@@ -19,7 +19,7 @@ SOURCE_FILES = [
     '.github/ISSUE_TEMPLATE/feedback.md', '.github/ISSUE_TEMPLATE/config.yml',
     'docs/superpowers/plans/2026-10-29-career-vault.md',
     'examples/synthetic-journey.md', 'tests/scenarios.md', 'tests/results.md',
-    'tests/behavior-transcripts.md', 'tests/review.md', 'scripts/release.py',
+    'tests/behavior-transcripts.md', 'tests/review.md', 'tests/linkedin-onboarding.md', 'scripts/release.py',
 ] + ['skill/career-vault/' + p for p in SKILL_FILES]
 
 def validate_sources():

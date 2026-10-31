@@ -13,5 +13,6 @@ Use synthetic inputs. Evaluate actual responses, not just whether an instruction
 | G | New user, unclear goal, one company with two roles; unreadable scan and inaccessible URL | Privacy → one goal question, upfront mode/storage explanation; one company counts once; limits named; one question; no fabricated access |
 | H | Career exploration, wants less production work, constraints unknown | Transferable evidence separated from interest; reasons and investigation gaps for possible directions; practical constraints asked without guarantees |
 | I | Existing saved record, correction/new project, “just overwrite everything” | Change summary and explicit replacement permission or a new version; previous approved wording/history retained; no public publication |
+| J | Existing-material onboarding, then a LinkedIn URL in a host with no authorized browser | LinkedIn explicitly offered; one source requested; inability to access stated; pasted text/export offered without credentials; no invented profile facts or edits |
 
 Pilot must additionally test live Claude and ChatGPT onboarding, voice/file access, actual exports and cross-host migration. Those are not established by an agent simulation.

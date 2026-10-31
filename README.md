@@ -4,15 +4,15 @@
 
 Your job title rarely captures everything you contribute. Career Vault interviews you about real work, helps identify the strengths you may take for granted, and preserves that knowledge for resumes, case studies, portfolio copy, cover letters and presentations.
 
-**Public beta · v0.1.1-beta.1 · Claude and ChatGPT onboarding · MIT license**
+**Public beta · v0.1.1-beta.2 · Claude and ChatGPT onboarding · MIT license**
 
-[Get the skill and complete instructions](https://github.com/daibot/career-vault/releases/tag/v0.1.1-beta.1) · [See a synthetic walkthrough](docs/demo.md) · [How it was built](docs/build.md)
+[Get the skill and complete instructions](https://github.com/daibot/career-vault/releases/tag/v0.1.1-beta.2) · [See a synthetic walkthrough](docs/demo.md) · [How it was built](docs/build.md)
 
 **Privacy first:** Career Vault itself collects no personal information, sends none to its creator, and adds no separate collection or transmission. Your AI provider still processes your chats and files under its own privacy and retention settings. You choose what to share and where to save your record. See [privacy](docs/privacy.md).
 
 ## Try it — no installation required
 
-1. Download [career-vault-playbook.txt](https://github.com/daibot/career-vault/releases/download/v0.1.1-beta.1/career-vault-playbook.txt). It contains the complete skill instructions, supporting guides and templates.
+1. Download [career-vault-playbook.txt](https://github.com/daibot/career-vault/releases/download/v0.1.1-beta.2/career-vault-playbook.txt). It contains the complete skill instructions, supporting guides and templates.
 2. Open Claude or ChatGPT and upload that file where supported, or paste its contents into a new conversation. See the [Claude](docs/claude.md) or [ChatGPT](docs/chatgpt.md) guide if you need help.
 3. Send this message:
 
@@ -22,13 +22,15 @@ The assistant should ask about your current goal first. Being unsure is fine. Yo
 
 ## Install as a skill, if your host supports it
 
-Download [career-vault-skill-0.1.1-beta.1.zip](https://github.com/daibot/career-vault/releases/download/v0.1.1-beta.1/career-vault-skill-0.1.1-beta.1.zip). It contains the `career-vault/` skill folder: a `SKILL.md` entry point, interview/output guides, and record/output templates. Follow your host's skill installation instructions; the [Claude guide](docs/claude.md) covers its optional ZIP upload path.
+Download [career-vault-skill-0.1.1-beta.2.zip](https://github.com/daibot/career-vault/releases/download/v0.1.1-beta.2/career-vault-skill-0.1.1-beta.2.zip). It contains the `career-vault/` skill folder: a `SKILL.md` entry point, interview/output guides, and record/output templates. Follow your host's skill installation instructions; the [Claude guide](docs/claude.md) covers its optional ZIP upload path.
 
 A GitHub URL or file upload does not automatically install a skill in every app. The copy/upload path above makes the same instructions available without installation. In the repository, the canonical skill is [SKILL.md](skill/career-vault/SKILL.md); provide its four supporting files too if using the source instead of the complete text download.
 
 ## What it helps you do
 
-Start with existing resumes, project stories, portfolio links or work samples if you have them. Career Vault investigates your last three companies (all if fewer), including multiple roles, quiet contributions and work beyond your title. Freelancers can agree equivalent client organizations or career chapters.
+Start with an existing resume, LinkedIn profile URL, project story, portfolio link or work sample if you have them. Career Vault investigates your last three companies (all if fewer), including multiple roles, quiet contributions and work beyond your title. Freelancers can agree equivalent client organizations or career chapters.
+
+A LinkedIn URL is an optional starting point. Access depends on your assistant: if it cannot read the profile or needs a sign-in it cannot use, paste the text or provide an export instead. Never share your password or session cookies. The skill should confirm what it actually read and check its understanding with you; a profile is a source to examine, not independently verified proof. It will not edit your profile merely because you supplied its URL.
 
 The skill reflects what it learns for correction, suggests evidence-backed strengths and discusses what to lead with before drafting. Initial materials include a resume with agreed accomplishment bullets, relevant written case studies and the full career record. Other formats reuse the same evidence. You can pause, defer a question or return with a new goal.
 
